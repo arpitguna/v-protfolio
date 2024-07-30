@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- responsive css  -->
+    <link rel="stylesheet" href="css/min.css" type="text/css">
 </head>
 <body>
     <header class="navbar navbar-expand-lg position-fixed top-0 start-0 w-100 z-3 bg-light">
@@ -44,14 +46,14 @@
                     <h2>PROTFOLIO</h2>
                 </div>
                 <ul class="nav nav-pills my-4 justify-content-center">
-                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark mx-2 shadow active" data-bs-toggle="tab" data-bs-target="#all">ALL</a></li>
-                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark mx-2 shadow" data-bs-toggle="tab" data-bs-target="#photoshop">Photoshop</a></li>
-                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark mx-2 shadow" data-bs-toggle="tab" data-bs-target="#figma">Figma</a></li>
-                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark mx-2 shadow" data-bs-toggle="tab" data-bs-target="#illustrator">Illustrator</a></li>
-                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark mx-2 shadow" data-bs-toggle="tab" data-bs-target="#after">After</a></li>
-                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark mx-2 shadow" data-bs-toggle="tab" data-bs-target="#indesign">Indesign</a></li>
-                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark mx-2 shadow" data-bs-toggle="tab" data-bs-target="#corelvraw">Corelvraw</a></li>
-                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark mx-2 shadow" data-bs-toggle="tab" data-bs-target="#canva">Canva</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark m-2 shadow active" data-bs-toggle="tab" data-bs-target="#all">ALL</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark m-2 shadow" data-bs-toggle="tab" data-bs-target="#photoshop">Photoshop</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark m-2 shadow" data-bs-toggle="tab" data-bs-target="#figma">Figma</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark m-2 shadow" data-bs-toggle="tab" data-bs-target="#illustrator">Illustrator</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark m-2 shadow" data-bs-toggle="tab" data-bs-target="#after">After</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark m-2 shadow" data-bs-toggle="tab" data-bs-target="#indesign">Indesign</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark m-2 shadow" data-bs-toggle="tab" data-bs-target="#corelvraw">Corelvraw</a></li>
+                    <li class="nav-item"><a href="javascript:void(0)" class="nav-link text-dark m-2 shadow" data-bs-toggle="tab" data-bs-target="#canva">Canva</a></li>
                 </ul>
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="all">
@@ -60,11 +62,10 @@
                             <div class="col-lg-4">
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/Photoshop-1.png" class="img-fluid" alt="app1">
+                                        <img src="images/project/Photoshop-1.png" class="img-fluid" alt="photoshop" title="photoshop">
                                         <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
-                                            <!-- <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a> -->
                                             <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
-                                                <a href="images/project/Photoshop-1.png" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                                <a href="images/project/Photoshop-1.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -76,9 +77,8 @@
                             <div class="col-lg-4">
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/Photoshop-2.png" class="img-fluid" alt="app1">
+                                        <img src="images/project/Photoshop-2.png" class="img-fluid" alt="photoshop" title="photoshop">
                                         <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
-                                            <!-- <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a> -->
                                             <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
                                                 <a href="images/project/Photoshop-2.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
                                             </div>
@@ -92,10 +92,11 @@
                             <div class="col-lg-4">
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/Photoshop-3.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <img src="images/project/Photoshop-3.png" class="img-fluid" alt="photoshop" title="photoshop">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-3.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
@@ -103,14 +104,54 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- figma -->
+                            <div class="col-lg-4">
+                                <div class="card mt-4">
+                                    <div clas class="protfolio-img position-relative text-center p-3">
+                                        <img src="images/project/figma-1.jpg" class="img-fluid" alt="figma" title="figma">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-1.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card mt-4">
+                                    <div clas class="protfolio-img position-relative text-center p-3">
+                                        <img src="images/project/figma-2.jpg" class="img-fluid" alt="figma" title="figma">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-2.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card mt-4">
+                                    <div clas class="protfolio-img position-relative text-center p-3">
+                                        <img src="images/project/figma-3.jpg" class="img-fluid" alt="figma" title="figma">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-3.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- illustrator -->
                             <div class="col-lg-4">
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/illustrator-1.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <img src="images/project/illustrator-1.png" class="img-fluid" alt="illustrator" title="illustrator">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-1.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
@@ -121,10 +162,11 @@
                             <div class="col-lg-4">
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/illustrator-2.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <img src="images/project/illustrator-2.png" class="img-fluid" alt="illustrator" title="illustrator">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-2.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
@@ -135,100 +177,15 @@
                             <div class="col-lg-4">
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/illustrator-3.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <img src="images/project/illustrator-3.png" class="img-fluid" alt="illustrator" title="illustrator">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-3.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
                                         <h5 class="card-title fw-bold">ILLUSTRATOR</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- coreldraw -->
-                            <div class="col-lg-4">
-                                <div class="card mt-4">
-                                    <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/coreldraw-1.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title fw-bold">CORELDRAW</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card mt-4">
-                                    <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/coreldraw-2.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title fw-bold">CORELDRAW</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card mt-4">
-                                    <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/coreldraw-3.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title fw-bold">CORELDRAW</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- indesign -->
-                            <div class="col-lg-4">
-                                <div class="card mt-4">
-                                    <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/indesign-1.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_book-cover-design-activity-7198168849626624000-IguY?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title fw-bold">INDESIGN</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card mt-4">
-                                    <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/indesign-2.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title fw-bold">INDESIGN</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card mt-4">
-                                    <div clas class="protfolio-img position-relative text-center p-3">
-                                        <img src="images/project/indesign-3.png" class="img-fluid" alt="app1">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title fw-bold">INDESIGN</h5>
                                     </div>
                                 </div>
                             </div>
@@ -240,9 +197,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-1.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-1.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
@@ -256,9 +214,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-2.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-2.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
@@ -272,9 +231,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-3.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-3.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
@@ -282,6 +242,101 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- indesign -->
+                            <div class="col-lg-4">
+                                <div class="card mt-4">
+                                    <div clas class="protfolio-img position-relative text-center p-3">
+                                        <img src="images/project/indesign-1.png" class="img-fluid" alt="indesign" title="indesign">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/indesign-1.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold">INDESIGN</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card mt-4">
+                                    <div clas class="protfolio-img position-relative text-center p-3">
+                                        <img src="images/project/indesign-2.png" class="img-fluid" alt="indesign" title="indesign">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/indesign-2.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold">INDESIGN</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card mt-4">
+                                    <div clas class="protfolio-img position-relative text-center p-3">
+                                        <img src="images/project/indesign-3.png" class="img-fluid" alt="indesign" title="indesign">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/indesign-3.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold">INDESIGN</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- coreldraw -->
+                            <div class="col-lg-4">
+                                <div class="card mt-4">
+                                    <div clas class="protfolio-img position-relative text-center p-3">
+                                        <img src="images/project/coreldraw-1.png" class="img-fluid" alt="coreldraw" title="coreldraw">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/coreldraw-1.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold">CORELDRAW</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card mt-4">
+                                    <div clas class="protfolio-img position-relative text-center p-3">
+                                        <img src="images/project/coreldraw-2.png" class="img-fluid" alt="coreldraw" title="coreldraw">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/coreldraw-2.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold">CORELDRAW</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card mt-4">
+                                    <div clas class="protfolio-img position-relative text-center p-3">
+                                        <img src="images/project/coreldraw-3.png" class="img-fluid" alt="coreldraw" title="coreldraw">
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/coreldraw-3.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title fw-bold">CORELDRAW</h5>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- canva -->
                             <div class="col-lg-4">
                                 <div class="card mt-4">
@@ -289,9 +344,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-1.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-1.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
@@ -305,9 +361,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-2.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_advertisement-activity-7139161263074435072-ar9M?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-2.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
@@ -321,9 +378,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-3.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-3.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
@@ -339,9 +397,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-1.png" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-1.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -350,9 +409,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-2.png" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-2.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -361,9 +421,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-3.png" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-3.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -372,9 +433,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-4.png" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-4.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -383,9 +445,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-5.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-5.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -394,9 +457,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-6.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-6.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -405,9 +469,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-7.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-7.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -416,9 +481,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-8.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-8.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -427,9 +493,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-9.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-9.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -438,9 +505,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-10.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-10.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -449,9 +517,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-11.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-11.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -460,9 +529,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-12.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-12.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -471,9 +541,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-13.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-13.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -482,9 +553,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-14.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-14.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -493,9 +565,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/Photoshop-15.jpg" class="img-fluid" alt="photoshop" title="photoshop">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-15.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -508,9 +581,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-1.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-1.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -519,9 +593,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-2.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-2.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -530,9 +605,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-3.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-3.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -541,9 +617,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-4.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-4.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -552,9 +629,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-5.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-6.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -563,9 +641,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-6.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-7.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -574,9 +653,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-7.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-7.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -585,9 +665,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-8.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-8.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -596,9 +677,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-9.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-9.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -607,9 +689,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-10.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-10.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -618,9 +701,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-11.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-11.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -629,9 +713,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/figma-12.jpg" class="img-fluid" alt="figma" title="figma">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/figma-12.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -644,9 +729,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-1.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-1.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -655,9 +741,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-2.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-2.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -666,9 +753,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-3.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-3.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -677,9 +765,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-4.jpg" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-4.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -688,9 +777,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-5.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-5.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -699,9 +789,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-6.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-6.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -710,9 +801,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-7.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-7.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -721,9 +813,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-8.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-8.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -732,9 +825,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-9.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-9.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -743,9 +837,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-10.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-10.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -754,9 +849,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-11.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-11.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -765,9 +861,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-12.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-12.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -776,9 +873,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-13.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-13.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -787,9 +885,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-14.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-14.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -798,9 +897,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/illustrator-15.png" class="img-fluid" alt="illustrator" title="illustrator">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/illustrator-15.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -815,9 +915,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-1.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-1.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -828,9 +929,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-2.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-2.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -841,9 +943,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-3.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-3.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -854,9 +957,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-4.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-4.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -867,9 +971,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-5.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-5.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -880,9 +985,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-6.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-6.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -893,9 +999,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/after-7.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/after-7.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -908,9 +1015,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/indesign-1.png" class="img-fluid" alt="indesign" title="indesign">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_book-cover-design-activity-7198168849626624000-IguY?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/indesign-1.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -919,9 +1027,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/indesign-2.png" class="img-fluid" alt="indesign" title="indesign">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/indesign-2.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -930,9 +1039,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/indesign-3.png" class="img-fluid" alt="indesign" title="indesign">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/indesign-3.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -941,9 +1051,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/indesign-4.png" class="img-fluid" alt="indesign" title="indesign">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/indesign-4.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -956,9 +1067,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/coreldraw-1.png" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_book-cover-design-activity-7198168849626624000-IguY?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/coreldraw-1.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -967,9 +1079,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/coreldraw-2.png" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/coreldraw-2.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -978,9 +1091,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/coreldraw-3.png" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/Photoshop-3.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -989,9 +1103,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/corelvraw-4.jpg" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/corelvraw-4.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1000,9 +1115,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/corelvraw-5.jpg" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/corelvraw-5.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1011,9 +1127,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/corelvraw-6.jpg" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/corelvraw-6.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1022,9 +1139,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/corelvraw-7.jpg" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/corelvraw-7.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1033,9 +1151,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/corelvraw-8.png" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/corelvraw-8.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1044,9 +1163,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/corelvraw-9.jpg" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/corelvraw-9.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1055,9 +1175,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3">
                                         <img src="images/project/corelvraw-10.jpg" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_newspaperdesign-activity-7196729072721227776-Non5?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/corelvraw-10.jpg" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1072,9 +1193,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-1.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-1.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1085,9 +1207,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-2.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_advertisement-activity-7139161263074435072-ar9M?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-2.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1098,9 +1221,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-3.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-3.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1109,9 +1233,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3" style="width: 100%; height: 250px; overflow: hidden;">
                                         <img src="images/project/canva-4.png" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-4.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1120,9 +1245,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3" style="width: 100%; height: 250px; overflow: hidden;">
                                         <img src="images/project/canva-5.png" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_advertisement-activity-7139161263074435072-ar9M?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-5.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1133,9 +1259,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-6.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-6.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1146,9 +1273,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-7.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-7.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1159,9 +1287,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-8.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_advertisement-activity-7139161263074435072-ar9M?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-8.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1170,9 +1299,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3" style="width: 100%; height: 250px; overflow: hidden;">
                                         <img src="images/project/canva-9.png" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-9.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1183,9 +1313,10 @@
                                         <video autoplay muted loop class="w-100 h-100">
                                             <source src="images/project/canva-10.mp4" type="video/mp4">
                                         </video>
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-10.mp4" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1194,9 +1325,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3" style="width: 100%; height: 250px; overflow: hidden;">
                                         <img src="images/project/canva-11.png" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="https://www.linkedin.com/posts/vatsal-dholariya-5a4b18278_advertisement-activity-7139161263074435072-ar9M?utm_source=share&utm_medium=member_desktop" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-11.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1205,9 +1337,10 @@
                                 <div class="card mt-4">
                                     <div clas class="protfolio-img position-relative text-center p-3" style="width: 100%; height: 250px; overflow: hidden;">
                                         <img src="images/project/canva-12.png" class="img-fluid" alt="corelvraw" title="corelvraw">
-                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-add-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
-                                            <a href="javascript:void(0)" class="nav-link"><i class="ri-link fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                        <div class="portfolio-overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center p-3">
+                                            <div class="full d-flex justify-content-center align-items-center" style="width: 75%; height: 75%;">
+                                                <a href="images/project/canva-12.png" target="_blank" class="nav-link"><i class="ri-camera-line fs-3 p-2 text-center rounded-circle bg-light"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
